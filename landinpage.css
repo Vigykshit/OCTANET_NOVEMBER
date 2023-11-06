@@ -1,0 +1,277 @@
+body{
+   margin: 0%;
+   /* padding: 1%; */
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+/* HEADER */
+header{
+    height: 3rem;
+    width: 100%;
+    /* border: 2px solid black; */
+    /* position: fixed; */
+    display: flex;
+    padding-left: 1%;
+}
+
+#head >img{
+    height:3rem ;
+}
+.toporder{
+    margin-left: 20%;
+    display: flex;
+}
+.btn{
+    background: none;
+   border: none;
+   font-size: 1.1rem;
+   margin-top: 20px;
+  margin-left: 25px;
+}
+
+.nextorder{
+    /* border: 2px green solid; */
+    margin-left: 350px;
+}
+.fi{
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+/* MAIN */
+.main1{
+    height: 400px;
+    width: 100%;
+    /* border: 2px dotted blue; */
+    margin-top: 30px;
+    position: absolute;
+    /* background-color: color-mix(in srgb, #34c9eb 100%, white); */
+    background-image: url(https://assets-v2.scaler.com/assets/course_page/banner/banner-svg-b723839c1463b82a3ad793feab1036dc2b1bae9627985de45bb8f9a9dcbbab07.svg.gz);
+    background-size: 100%;
+}
+.main2{
+    height: 300px;
+    width: 35%;
+    /* border: 2px solid black; */
+    font-size: 1.3rem;
+    margin-top: 60px;
+    padding-left: 5%;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+   
+}
+.main3{
+    line-height: 3;
+}
+.main3 >p{
+    margin-left: -50px;
+}
+#btn5{
+  height: 40px;
+  width: 200px;
+  margin-top: -1px;
+  margin-left: 40px;
+    font-size: 1rem;
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+.main4{
+    margin-top: -50px;
+}
+.main5{
+    height: 300px;
+    width: 40%;
+    /* border: 2px solid yellowgreen; */
+    margin-top: -22%;
+    margin-left: 56%;
+    /* background-image: url(https://ibb.co/FbFC8BQ); */
+
+}
+.main5 >img{
+    height: 300px;
+    width: 100%;
+
+}
+#description{
+    height: 700px;
+    width: 94%;
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-top: 4.5%;
+    padding: 3%;
+
+
+}
+
+.overview{
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+   
+}
+.overview1{
+    height: 500px;
+    width: 25%;
+    /* border: 2px solid #fff; */
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-left: 6%;
+    margin-top: 3%;
+    padding: 1%;
+
+}
+h3{
+    color: #52697c;
+}
+.overview1:hover{
+  box-shadow: 10px 10px 10px 10px gray;
+}
+#About{
+    height: 650px;
+    width: 94%;
+    /* border: 2px dotted black; */
+   margin-top: 57%;
+   padding: 3%;
+   background-color: #e7f3ff;
+}
+.About1{
+    height: 500px;
+    width: 100%;
+    /* border: 2px double blue; */
+}
+
+.About1>img{
+    width: 64%;
+    margin-left: 17%;
+    /* margin-top: 1%; */
+}
+
+#call{
+    height: 550px;
+    width: 94%;
+    /* border: #1b1c1d 2px solid; */
+    /* background-color:#0041ca; */
+    background-image: url(https://assets-v2.scaler.com/assets/course_page/banner/banner-svg-b723839c1463b82a3ad793feab1036dc2b1bae9627985de45bb8f9a9dcbbab07.svg.gz);
+    line-height: 0.8;
+    background-size: 100%;
+    background-repeat: repeat;
+    padding: 3%;
+    display: flex;
+    margin-top: 1962px;
+}
+
+
+.form{
+    height: 530px;
+    width: 37%;
+    /* border: 2px solid black; */
+    background-color: #fff;
+    padding-left: 3%;
+    margin-top: 1%;
+   border-radius: 10px;   
+}
+
+.email{
+    height: 40px;
+    width: 70%;
+    border-radius: 10px;
+}
+.call1{
+    margin-top: 10%;
+    line-height: 0;
+}
+
+.btn2{
+    height: 30px;
+    width: 100px;
+    margin-top: 4%;
+    border-radius: 5px;
+    background-color: #5b5e61;
+    color: #FFF;
+    border: none;
+}
+.content{
+   
+    height: 530px;
+    width: 45%;
+    /* border: 2px solid black; */
+    background-color: #fff;
+    padding-left: 3%;
+    margin-top: 1%;
+    border-radius: 10px;   
+    margin-left: 5%;
+    line-height: 1.5;
+    background-color: transparent;
+    color:#fff;
+   
+    
+}
+
+
+
+/* FOOTER */
+footer{
+    height: 320px;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: #1b1c1d;
+    /* margin-top: 2500px; */
+   
+}
+#naam{
+    font-size: 20px;
+    margin-left: 5%;
+    font-weight: bold;
+   
+  
+
+
+}
+.aboutzomato{
+    height: 150px;
+    /* width: 90%; */
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin-left: 4%;
+    width:28%;
+    border-right: 2px solid #1b1c1d;
+    font-size: 30px;
+    color:black;
+}
+
+
+.noborder{
+    border:none;
+}
+.footing{
+    text-align: center;
+    font-size: large;
+    margin-top: 0%;
+}
+.foottext{
+    font-size: 1rem;
+    color: rgb(139, 134, 134);
+   
+}
+
+.aboutzomato > ul{
+    list-style-type: none;
+    /* margin-left: -9%; */
+    
+}
+
+.footlink {
+    height: 35px;
+    padding-left: 1%;
+   
+}
+.small{
+    height: 80px;
+    margin-top: 15%;
+}
